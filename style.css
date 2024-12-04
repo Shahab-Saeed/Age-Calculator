@@ -116,6 +116,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        gap: 30px;
     }
 
     body {
@@ -141,11 +143,10 @@
 
     .input-box input {
 
-        padding-right: 40px;
-        padding-left: 2px;
+        padding-right: 60px;
+        padding-left: 20px;
         
     }
-    .input-box{
-        margin-right: 7%;
-    }
+    
+    
 }
